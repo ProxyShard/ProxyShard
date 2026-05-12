@@ -135,45 +135,18 @@ username:password@host:port
 
 ### 🚀 Quickstart
 
-Take a proxy from the ProxyShard dashboard and use it as a standard HTTP or SOCKS5 proxy.
-
-**curl (HTTP):**
+Take a proxy from the ProxyShard dashboard and use it as a standard HTTP or SOCKS5 proxy:
 
 ```bash
 curl -x http://USERNAME:PASSWORD@HOST:PORT https://api.ipify.org?format=json
 ```
 
-**curl (SOCKS5):**
+For ready-to-run Python recipes — generating residential proxy URLs with country / region / city targeting, listing Datacenter and ISP active proxies, health-checking through `ipapi.co`, resolving relay IPs — see the cookbooks:
 
-```bash
-curl -x socks5://USERNAME:PASSWORD@HOST:PORT https://api.ipify.org?format=json
-```
-
-**Python (requests):**
-
-```python
-import requests
-
-proxy = "http://USERNAME:PASSWORD@HOST:PORT"
-resp = requests.get(
-    "https://api.ipify.org?format=json",
-    proxies={"http": proxy, "https": proxy},
-    timeout=10,
-)
-print(resp.json())
-```
-
-**Node.js (undici):**
-
-```js
-import { fetch, ProxyAgent } from "undici";
-
-const agent = new ProxyAgent("http://USERNAME:PASSWORD@HOST:PORT");
-const res = await fetch("https://api.ipify.org?format=json", { dispatcher: agent });
-console.log(await res.json());
-```
-
-For SDK-style access to the user API, see [proxyshard-sdk-js](https://github.com/ProxyShard/proxyshard-sdk-js) and [proxyshard-sdk-python](https://github.com/ProxyShard/proxyshard-sdk-python).
+| Cookbook | Repo |
+| --- | --- |
+| 🇺🇸 English | [proxyshard-api-examples](https://github.com/ProxyShard/proxyshard-api-examples) |
+| 🇷🇺 Русский | [proxyshard-api-examples-ru](https://github.com/ProxyShard/proxyshard-api-examples-ru) |
 
 ### 📚 Setup guides
 
