@@ -64,7 +64,7 @@ Every device transmits a TCP/IP-level fingerprint (MSS, TTL, TCP options, window
 
 ProxyShard lets you pick the OS profile your proxy transmits:
 
-🪟 Windows 10 / 11 · 🍎 macOS · 🐧 Linux · 📱 iOS · 🤖 Android
+**Windows 10 / 11** · **macOS** · **Linux** · **iOS** · **Android**
 
 **Available on:** Datacenter · Static ISP · Mobile.
 
@@ -111,6 +111,48 @@ host:port:username:password
 username:password@host:port
 ```
 
+### 🚀 Quickstart
+
+Pick up a proxy from your ProxyShard dashboard, then use it like any HTTP or SOCKS5 proxy.
+
+**curl (HTTP):**
+
+```bash
+curl -x http://USERNAME:PASSWORD@HOST:PORT https://api.ipify.org?format=json
+```
+
+**curl (SOCKS5):**
+
+```bash
+curl -x socks5://USERNAME:PASSWORD@HOST:PORT https://api.ipify.org?format=json
+```
+
+**Python (requests):**
+
+```python
+import requests
+
+proxy = "http://USERNAME:PASSWORD@HOST:PORT"
+resp = requests.get(
+    "https://api.ipify.org?format=json",
+    proxies={"http": proxy, "https": proxy},
+    timeout=10,
+)
+print(resp.json())
+```
+
+**Node.js (undici):**
+
+```js
+import { fetch, ProxyAgent } from "undici";
+
+const agent = new ProxyAgent("http://USERNAME:PASSWORD@HOST:PORT");
+const res = await fetch("https://api.ipify.org?format=json", { dispatcher: agent });
+console.log(await res.json());
+```
+
+For SDK-style access to the user API, see [proxyshard-sdk-js](https://github.com/ProxyShard/proxyshard-sdk-js) and [proxyshard-sdk-python](https://github.com/ProxyShard/proxyshard-sdk-python).
+
 ### ⚖️ Responsible use
 
 ProxyShard is intended for legitimate automation, testing, monitoring and data access. We do not support spam, credential attacks, fraud, malware, or any activity that violates applicable laws or third-party terms.
@@ -151,7 +193,7 @@ ProxyShard — прокси-инфраструктура для команд, м
 
 ProxyShard позволяет выбрать, какой OS-профиль будет отдавать прокси:
 
-🪟 Windows 10 / 11 · 🍎 macOS · 🐧 Linux · 📱 iOS · 🤖 Android
+**Windows 10 / 11** · **macOS** · **Linux** · **iOS** · **Android**
 
 **Доступно на:** Datacenter · Static ISP · Mobile.
 
@@ -218,7 +260,7 @@ ProxyShard — проксі-інфраструктура для команд, м
 
 ProxyShard дозволяє обрати, який OS-профіль віддаватиме проксі:
 
-🪟 Windows 10 / 11 · 🍎 macOS · 🐧 Linux · 📱 iOS · 🤖 Android
+**Windows 10 / 11** · **macOS** · **Linux** · **iOS** · **Android**
 
 **Доступно на:** Datacenter · Static ISP · Mobile.
 
@@ -285,7 +327,7 @@ ProxyShard 是面向团队、营销人员、流量套利者、开发者及自动
 
 ProxyShard 允许你选择代理传输的操作系统指纹:
 
-🪟 Windows 10 / 11 · 🍎 macOS · 🐧 Linux · 📱 iOS · 🤖 Android
+**Windows 10 / 11** · **macOS** · **Linux** · **iOS** · **Android**
 
 **可用于:** 数据中心 · 静态 ISP · 移动代理。
 
