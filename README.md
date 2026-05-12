@@ -124,8 +124,8 @@ Web scraping · SERP and SEO monitoring · Ad verification · Affiliate marketin
 
 | Repository | Purpose |
 | --- | --- |
-| [proxyshard-sdk-js](https://github.com/ProxyShard/proxyshard-sdk-js) | Official JavaScript / TypeScript SDK |
-| [proxyshard-sdk-python](https://github.com/ProxyShard/proxyshard-sdk-python) | Official Python SDK |
+| [proxyshard-api-examples](https://github.com/ProxyShard/proxyshard-api-examples) | Python cookbook for the user API (English) |
+| [proxyshard-api-examples-ru](https://github.com/ProxyShard/proxyshard-api-examples-ru) | Python cookbook for the user API (Russian) |
 | [p0f-profiles](https://github.com/ProxyShard/p0f-profiles) | p0f fingerprint presets |
 | [blocklist](https://github.com/ProxyShard/blocklist) | Datacenter and ISP proxy blocklist |
 | [awesome-proxy](https://github.com/ProxyShard/awesome-proxy) | Curated proxy, automation and scraping resources |
