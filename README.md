@@ -84,6 +84,8 @@ TCP-only proxies break WebRTC and QUIC traffic. Most Chromium-based antidetect b
 
 ProxyShard supports **UDP over SOCKS5** across all products (except US Residential), so WebRTC, QUIC and real-time traffic stay inside the tunnel.
 
+[Read more about UDP →](https://docs.proxyshard.com/eng/our-products/about-udp)
+
 ### 🎯 Common use cases
 
 Web scraping · SERP and SEO monitoring · Ad verification · Affiliate marketing · Anti-detect browser profiles · E-commerce and price tracking · QA and multi-region testing · App testing · Market research · Workflow automation · Multi-accounting.
@@ -217,6 +219,8 @@ TCP-only прокси ломают WebRTC и QUIC. Большинство Chromi
 
 ProxyShard поддерживает **UDP over SOCKS5** на всех продуктах (кроме US Residential) — WebRTC, QUIC и real-time трафик остаются внутри тоннеля.
 
+[Подробнее про UDP →](https://docs.proxyshard.com/nashi-produkty/about-udp)
+
 ### 🎯 Популярные сценарии
 
 Web scraping · SERP и SEO-мониторинг · проверка рекламы · affiliate marketing · anti-detect browser profiles · e-commerce и мониторинг цен · QA и multi-region testing · тестирование приложений · market research · автоматизация рабочих процессов · мультиаккаунтинг.
@@ -305,6 +309,8 @@ TCP-only проксі ламають WebRTC та QUIC. Більшість Chromi
 
 ProxyShard підтримує **UDP over SOCKS5** на всіх продуктах (крім US Residential) — WebRTC, QUIC і real-time трафік залишаються всередині тунелю.
 
+[Детальніше про UDP →](https://docs.proxyshard.com/nashi-produkty/about-udp)
+
 ### 🎯 Популярні сценарії
 
 Web scraping · SERP та SEO-моніторинг · перевірка реклами · affiliate marketing · anti-detect browser profiles · e-commerce та моніторинг цін · QA і multi-region testing · тестування застосунків · market research · автоматизація робочих процесів · мультиакаунтинг.
@@ -392,6 +398,8 @@ ProxyShard 允许用户为支持的代理类型切换 p0f network fingerprint pr
 TCP-only 代理无法承载 WebRTC 与 QUIC 流量。大多数基于 Chromium 的反检测浏览器无法通过 TCP 代理转发 WebRTC,真实 IP 会直接泄露。Discord 等服务已经通过 Hcaptcha-enterprise 检测 WebRTC 是否启用,没有 UDP 的话,"匿名"会话在第一次检查时就会被识破。
 
 ProxyShard 在所有产品(US Residential 除外)上支持 **UDP over SOCKS5** — WebRTC、QUIC 和实时流量都保留在隧道之内。
+
+[详细了解 UDP →](https://docs.proxyshard.com/eng/our-products/about-udp)
 
 ### 🎯 常见使用场景
 
