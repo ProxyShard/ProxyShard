@@ -162,6 +162,7 @@ Step-by-step configuration in the docs:
 - **Antidetect browsers:** [Vision Browser](https://docs.proxyshard.com/eng/usage-instructions/antidetect-browsers/vision-browser)
 - **Browsers:** [Chrome + ZeroOmega](https://docs.proxyshard.com/eng/usage-instructions/browsers/chrome/zeroomega) · [Firefox + FoxyProxy](https://docs.proxyshard.com/eng/usage-instructions/browsers/mozilla-firefox/foxyproxy) · [Safari](https://docs.proxyshard.com/eng/usage-instructions/browsers/safari) · [Opera](https://docs.proxyshard.com/eng/usage-instructions/browsers/opera) · [Edge](https://docs.proxyshard.com/eng/usage-instructions/browsers/edge)
 - **System-level:** [Windows](https://docs.proxyshard.com/eng/usage-instructions/windows) · [macOS](https://docs.proxyshard.com/eng/usage-instructions/macos) · [Linux](https://docs.proxyshard.com/eng/usage-instructions/linux) · [iOS / Android](https://docs.proxyshard.com/eng/usage-instructions/ios-android)
+- **Routers:** [MikroTik (RouterOS)](https://docs.proxyshard.com/eng/usage-instructions/mikrotik-proxy)
 - **Telegram:** [setup guide](https://docs.proxyshard.com/eng/usage-instructions/telegram)
 
 ### ⚖️ Responsible use
@@ -257,6 +258,7 @@ Web scraping · SERP и SEO-мониторинг · проверка рекла�
 - **Антидетект-браузеры:** [Vision Browser](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/antidetect-browsers/vision-browser)
 - **Браузеры:** [Chrome](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/browsers/chrome) · [Firefox](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/browsers/mozilla-firefox) · [Safari](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/browsers/safari) · [Opera](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/browsers/opera) · [Edge](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/browsers/edge)
 - **Операционные системы:** [Windows](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/windows) · [macOS](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/macos) · [Linux](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/linux) · [iOS / Android](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/ios-android)
+- **Маршрутизаторы:** [MikroTik (RouterOS)](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/mikrotik-proxy)
 - **Telegram:** [инструкция](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/telegram)
 
 ### ⚖️ Ответственное использование
@@ -352,6 +354,7 @@ Web scraping · SERP та SEO-моніторинг · перевірка рек�
 - **Антидетект-браузери:** [Vision Browser](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/antidetect-browsers/vision-browser)
 - **Браузери:** [Chrome](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/browsers/chrome) · [Firefox](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/browsers/mozilla-firefox) · [Safari](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/browsers/safari) · [Opera](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/browsers/opera) · [Edge](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/browsers/edge)
 - **Операційні системи:** [Windows](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/windows) · [macOS](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/macos) · [Linux](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/linux) · [iOS / Android](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/ios-android)
+- **Маршрутизатори:** [MikroTik (RouterOS)](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/mikrotik-proxy)
 - **Telegram:** [інструкція](https://docs.proxyshard.com/instrukciya-po-ispolzovaniyu/telegram)
 
 ### ⚖️ Відповідальне використання
@@ -447,6 +450,7 @@ Web scraping · SERP 与 SEO monitoring · 广告验证 · affiliate marketing �
 - **反检测浏览器:** [Vision Browser](https://docs.proxyshard.com/eng/usage-instructions/antidetect-browsers/vision-browser)
 - **浏览器:** [Chrome + ZeroOmega](https://docs.proxyshard.com/eng/usage-instructions/browsers/chrome/zeroomega) · [Firefox + FoxyProxy](https://docs.proxyshard.com/eng/usage-instructions/browsers/mozilla-firefox/foxyproxy) · [Safari](https://docs.proxyshard.com/eng/usage-instructions/browsers/safari) · [Opera](https://docs.proxyshard.com/eng/usage-instructions/browsers/opera) · [Edge](https://docs.proxyshard.com/eng/usage-instructions/browsers/edge)
 - **操作系统:** [Windows](https://docs.proxyshard.com/eng/usage-instructions/windows) · [macOS](https://docs.proxyshard.com/eng/usage-instructions/macos) · [Linux](https://docs.proxyshard.com/eng/usage-instructions/linux) · [iOS / Android](https://docs.proxyshard.com/eng/usage-instructions/ios-android)
+- **路由器:** [MikroTik (RouterOS)](https://docs.proxyshard.com/eng/usage-instructions/mikrotik-proxy)
 - **Telegram:** [配置指南](https://docs.proxyshard.com/eng/usage-instructions/telegram)
 
 ### ⚖️ 合规使用
