@@ -75,11 +75,29 @@ Available profiles:
 
 **Real-world example:** Google account registration without p0f typically requests phone verification. With p0f switched to Windows 10 / 11, the same flow more often shows QR-code verification — the trusted-user path. Other anti-fraud systems that read network-level signals behave similarly.
 
+**Recommended combo:** Static ISP proxies + p0f + [Vision Browser](https://docs.proxyshard.com/eng/usage-instructions/antidetect-browsers/vision-browser) — residential-level IP trust, matching network fingerprint and browser-layer fingerprint coverage in one stack.
+
 [Read the p0f guide →](https://docs.proxyshard.com/eng/our-products/p0f-spoofing)
+
+### 💡 Why UDP matters
+
+TCP-only proxies break WebRTC and QUIC traffic. Most Chromium-based antidetect browsers cannot route WebRTC through a TCP proxy, leaving the real IP exposed. Services like Discord already verify WebRTC presence via Hcaptcha-enterprise — without UDP an "anonymous" session is detected on the first check.
+
+ProxyShard supports **UDP over SOCKS5** across all products (except US Residential), so WebRTC, QUIC and real-time traffic stay inside the tunnel.
 
 ### 🎯 Common use cases
 
 Web scraping · SERP and SEO monitoring · Ad verification · Affiliate marketing · Anti-detect browser profiles · E-commerce and price tracking · QA and multi-region testing · App testing · Market research · Workflow automation · Multi-accounting.
+
+### 📋 Which proxy type to pick
+
+| If you need... | Pick |
+| --- | --- |
+| Real household IPs for scraping, SEO, ad verification or geo-sensitive tasks | **Residential** |
+| The cleanest residential pool for the strictest targets | **Premium Residential** |
+| Long sessions, account workflows, anti-fraud-heavy targets | **Static ISP** |
+| Maximum speed and volume for automation pipelines | **Datacenter** |
+| Highest trust, app testing, carrier-bound use cases | **Mobile** |
 
 ### 🧰 Free tools
 
@@ -158,6 +176,15 @@ console.log(await res.json());
 
 For SDK-style access to the user API, see [proxyshard-sdk-js](https://github.com/ProxyShard/proxyshard-sdk-js) and [proxyshard-sdk-python](https://github.com/ProxyShard/proxyshard-sdk-python).
 
+### 📚 Setup guides
+
+Step-by-step configuration in the docs:
+
+- **Antidetect browsers** — [Vision Browser](https://docs.proxyshard.com/eng/usage-instructions/antidetect-browsers/vision-browser) · [AdsPower](https://docs.proxyshard.com/eng/usage-instructions/antidetect-browsers/adspower)
+- **Browsers** — [Chrome + ZeroOmega](https://docs.proxyshard.com/eng/usage-instructions/browsers/chrome/zeroomega) · [Firefox + FoxyProxy](https://docs.proxyshard.com/eng/usage-instructions/browsers/mozilla-firefox/foxyproxy) · [Safari](https://docs.proxyshard.com/eng/usage-instructions/browsers/safari) · [Opera](https://docs.proxyshard.com/eng/usage-instructions/browsers/opera) · [Edge](https://docs.proxyshard.com/eng/usage-instructions/browsers/edge)
+- **System-level** — [Windows](https://docs.proxyshard.com/eng/usage-instructions/windows) · [macOS](https://docs.proxyshard.com/eng/usage-instructions/macos) · [Linux](https://docs.proxyshard.com/eng/usage-instructions/linux) · [iOS / Android](https://docs.proxyshard.com/eng/usage-instructions/ios-android)
+- **Telegram** — [setup guide](https://docs.proxyshard.com/eng/usage-instructions/telegram)
+
 ### ⚖️ Responsible use
 
 ProxyShard is intended for legitimate automation, testing, monitoring and data access. We do not support spam, credential attacks, fraud, malware or any activity that violates applicable laws or third-party terms.
@@ -209,7 +236,15 @@ ProxyShard позволяет переключать p0f network fingerprint pro
 
 **Пример из жизни:** регистрация Google-аккаунта без p0f почти всегда просит подтверждение по телефону. С переключением p0f на Windows 10 / 11 тот же флоу чаще показывает QR-код — путь «доверенного пользователя». Другие антифрод-системы, которые читают сетевые сигналы, ведут себя так же.
 
+**Рекомендуемая связка:** Static ISP-прокси + p0f + [Vision Browser](https://docs.proxyshard.com/eng/usage-instructions/antidetect-browsers/vision-browser) — резидентное доверие к IP, совпадение сетевого отпечатка и покрытие fingerprint на уровне браузера в одном стеке.
+
 [Гайд по p0f →](https://docs.proxyshard.com/eng/our-products/p0f-spoofing)
+
+### 💡 Почему UDP важен
+
+TCP-only прокси ломают WebRTC и QUIC. Большинство Chromium-based антидетект-браузеров не могут пропустить WebRTC через TCP-прокси — реальный IP утекает наружу. Сервисы вроде Discord уже проверяют наличие WebRTC через Hcaptcha-enterprise — без UDP «анонимная» сессия палится на первой же проверке.
+
+ProxyShard поддерживает **UDP over SOCKS5** на всех продуктах (кроме US Residential) — WebRTC, QUIC и real-time трафик остаются внутри тоннеля.
 
 ### 🎯 Популярные сценарии
 
@@ -281,7 +316,15 @@ ProxyShard дозволяє перемикати p0f network fingerprint profile
 
 **Приклад з життя:** реєстрація Google-акаунту без p0f майже завжди просить підтвердження телефоном. З переключенням p0f на Windows 10 / 11 той самий флоу частіше показує QR-код — шлях «довіреного користувача». Інші антифрод-системи, що читають мережеві сигнали, поводяться так само.
 
+**Рекомендована звʼязка:** Static ISP-проксі + p0f + [Vision Browser](https://docs.proxyshard.com/eng/usage-instructions/antidetect-browsers/vision-browser) — резидентний рівень довіри до IP, збіг мережевого відбитка та покриття fingerprint на рівні браузера в одному стеку.
+
 [Гайд з p0f →](https://docs.proxyshard.com/eng/our-products/p0f-spoofing)
+
+### 💡 Чому UDP важливий
+
+TCP-only проксі ламають WebRTC та QUIC. Більшість Chromium-based антидетект-браузерів не можуть пропустити WebRTC через TCP-проксі — справжній IP витікає назовні. Сервіси на кшталт Discord уже перевіряють наявність WebRTC через Hcaptcha-enterprise — без UDP «анонімна» сесія палиться на першій же перевірці.
+
+ProxyShard підтримує **UDP over SOCKS5** на всіх продуктах (крім US Residential) — WebRTC, QUIC і real-time трафік залишаються всередині тунелю.
 
 ### 🎯 Популярні сценарії
 
@@ -353,7 +396,15 @@ ProxyShard 允许用户为支持的代理类型切换 p0f network fingerprint pr
 
 **真实案例：** 注册 Google 账号时若不使用 p0f,大多数情况下会被要求短信验证;切换到 Windows 10 / 11 的 p0f 后,同一流程更常显示二维码验证 — 即"可信用户"路径。其他读取网络层信号的反欺诈系统也呈现类似行为。
 
+**推荐组合:** Static ISP 代理 + p0f + [Vision Browser](https://docs.proxyshard.com/eng/usage-instructions/antidetect-browsers/vision-browser) — 住宅级 IP 信任、网络层指纹匹配、浏览器层指纹覆盖,三层叠加。
+
 [阅读 p0f 指南 →](https://docs.proxyshard.com/eng/our-products/p0f-spoofing)
+
+### 💡 为什么 UDP 重要
+
+TCP-only 代理无法承载 WebRTC 与 QUIC 流量。大多数基于 Chromium 的反检测浏览器无法通过 TCP 代理转发 WebRTC,真实 IP 会直接泄露。Discord 等服务已经通过 Hcaptcha-enterprise 检测 WebRTC 是否启用 — 没有 UDP,"匿名"会话在第一次检查时就会被识破。
+
+ProxyShard 在所有产品(US Residential 除外)上支持 **UDP over SOCKS5** — WebRTC、QUIC 和实时流量都保留在隧道之内。
 
 ### 🎯 常见使用场景
 
